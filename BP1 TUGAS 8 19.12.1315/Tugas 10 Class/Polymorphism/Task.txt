@@ -1,0 +1,37 @@
+package polymorphism
+
+fun main() {
+    val kuda = Kuda()
+    kuda.mata = "Dua"
+    kuda.nyawa = "Satu"
+    kuda.bulu = "Banyak"
+    kuda.ekor = "Panjang"
+    kuda.kaki = 4
+    kuda.deskripsi()
+    
+    val kucing = Kucing()
+    kucing.mata = "Dua"
+    kucing.nyawa = "Satu"
+    kucing.kaki = 4
+    kucing.ekor = "Panjang"
+    kucing.pelihara = " Oleh Manusia"
+    kucing.deskripsi
+    
+    val lele = Lele()
+    lele.mata = "Dua"
+    lele.nyawa = "Satu"
+    lele.kumis = "Lebat dan"
+    lele.ternak = "Hewan Ternak"
+    lele.deskripsi()
+    
+    val merpati = Merpati()
+    merpati.mata = "Dua"
+    merpati.nyawa = "Satu"
+    merpati.kaki = "Dua"
+    merpati.pelihara = "Oleh Manusia"
+    merpati.sayap = "Dua"
+    merpati.terbang = "Tinggi"
+    merpati.desktipsi()
+    
+}
+

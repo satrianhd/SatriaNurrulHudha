@@ -1,0 +1,10 @@
+package polymorphism
+
+class Lele: Hewan() {
+    var ternak: String = ""
+    var kumis: String = ""
+    
+    override fun deskripsi() {
+        println("Lele adalah hewan yang hidup di air dan biasa menjadi $ternak bagi sebagian orang, lele juga memiliki kumis $kumis panjang di bagian wajahnya")
+    }
+}

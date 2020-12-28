@@ -1,0 +1,12 @@
+package polymorphism
+
+class Merpati: Hewan() {
+    var kaki: Int = 0
+    var Sayap: String = ""
+    var pelihara: String = ""
+    var terbang: String = ""
+    
+    override fun deskripsi() {
+        println("Merpati adalah hewan berkaki $kaki dan termasuk hewan yang biasa dipelihara $pelihara serta memiliki kemampuan terbang $terbang")
+    }
+}

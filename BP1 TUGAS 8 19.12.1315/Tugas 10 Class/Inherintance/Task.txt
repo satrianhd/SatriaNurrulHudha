@@ -1,0 +1,47 @@
+package inherintance
+
+fun main() {
+    
+    val Bejo = Guru()
+    bejo.nama = "Bejo Bintang Tujuh"
+    bejo.alamat = "Yogyakarta"
+    bejo.perkenalan()
+    bejo.gaji = 2000000
+    bejo.bekerja()
+    bejo.mapel = "Olahraga"
+    bejo.mengajar()
+    
+    val Satria = Pelajar()
+    satria.nama = "Satria Nurrul Hudha"
+    satria.nis = 1111
+    satria.alamat  "Klaten"
+    satria.perkenalan()
+    satria.jurusan = "IPS"
+    satria.belajar()
+    
+    val ali = Admin()
+    ali.nama = "Ali ali"
+    ali.alamat = "Solo"
+    ali.perkenalan()
+    ali.gaji = 1000000
+    ali.bekerja()
+    ali.sma = "Solobaru"
+    ali.melayani()
+    
+    val adit = CleaningService()
+    adit.nama = "Aditya"
+    adit.alamat = "Congdongcatur"
+    adit.sma = "SMA 1 Yogyakarta"
+    adit.perkenalan()
+    adit.gaji = 900000
+    adit.membersihkan()
+    
+    val Asep = PembimbingPramuka()
+    asep.nama = "Asep Pisan"
+    asep.alamat = "Kulonprogo"
+    asep.perkenalan()
+    asep.gaji = 2000000
+    asep.pelatih = "Pramuka SMA"
+    asep.melatih
+    
+}

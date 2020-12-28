@@ -1,0 +1,30 @@
+package polymorphism 
+
+fun main() {
+    
+    val afrig = Dosen()
+	afrig.nama = "Afrig Aminuddin"
+	afrig.alamat = "Condongcatur"
+	afrig.perkenalan()
+	afrig.gaji = 1000000
+	afrig.bekerja()
+	afrig.prodi = "Sistem Informasi"
+	afrig.mengajar()
+
+	val satria = Mahasiswa()
+	satria.nama = "Satria Nurrul Hudha"
+	satria.alamat = "Klaten"
+	satria.perkenalan()
+	satria.prodi = "Sistem Informasi"
+	satria.belajar()
+
+	val budi = Satpam()
+	budi.nama = "Budi Man"
+	budi.alamat = "Gunungkidul"
+	budi.perkenalan()
+	budi.gaji = 50000
+	budi.bekerja()
+	budi.pos = "Barat"
+	budi.menjaga()
+    
+}
